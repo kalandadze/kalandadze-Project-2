@@ -1,1 +1,1 @@
-{"password":"asd","products":[{"name":"Snickers","price":2.1,"amount":4,"id":1},{"name":"Twix","price":3.5,"amount":8,"id":2},{"name":"Mars","price":1.8,"amount":30,"id":3},{"name":"Java","price":9.85,"amount":15,"id":4},{"name":"Milka","price":0.9,"amount":20,"id":5}]}
+{"password":"asd","products":[{"name":"Snickers","price":2.1,"amount":3,"id":1},{"name":"Twix","price":3.5,"amount":8,"id":2},{"name":"Mars","price":1.8,"amount":30,"id":3},{"name":"Java","price":9.85,"amount":15,"id":4},{"name":"Milka","price":0.9,"amount":19,"id":5}]}

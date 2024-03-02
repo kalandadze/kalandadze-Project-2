@@ -2,7 +2,8 @@ async function setup(){
     var url = "http://localhost:8989/candy-shop/store";
     var response = await fetch(url, { method: "GET" });
     var contact1= await response.text();
-    const contact2=contact1.split(",");
+    console.log(contact1);
+    const contact2=contact1.split(", ");
     for(var i=0;i<contact2.length;i++){
         addMessage(contact2[i]);
     }
@@ -28,6 +29,7 @@ function addMessage(contact){
 
 async function purchase(candy){
     var newWindow = window.open(href="http://localhost:8989/candy-shop/buyMenu.html", windowname="asdfsd", 'width=250,height=200,status=yes,scrollbars=yes');
+    console.log(candy);
     newWindow.onload = function(){
         newWindow.postMessage(candy,'*');
     }

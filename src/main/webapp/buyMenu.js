@@ -5,6 +5,7 @@ window.addEventListener('message',function(candy){
 
 async function setup(candy){
     var url = "http://localhost:8989/candy-shop/store/product?name="+candy;
+    console.log(url);
     var response = await fetch(url, { method: "GET" });
     var product= await response.json();
     console.log(product.name);
